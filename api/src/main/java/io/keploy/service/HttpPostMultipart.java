@@ -1,5 +1,6 @@
 package io.keploy.service;
 
+import lombok.Getter;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -11,6 +12,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.UUID;
 
+@Getter
 public class HttpPostMultipart {
     // reference: https://blog.cpming.top/p/httpurlconnection-multipart-form-data
     private static final Logger logger = LogManager.getLogger(HttpPostMultipart.class);
